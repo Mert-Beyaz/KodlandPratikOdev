@@ -1,0 +1,474 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.36f1 (7a0645017be0) revision 7996997'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'tr' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Kodland Practice
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+53585
+Successfully changed project path to: D:/Kodland Practice
+D:/Kodland Practice
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14080] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3859736046 [EditorId] 3859736046 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2VMAOQ8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14080] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3859736046 [EditorId] 3859736046 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2VMAOQ8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 113.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.36f1 (7a0645017be0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Kodland Practice/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.013567 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 433 ms
+Refreshing native plugins compatible for Editor in 115.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.722 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1723ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1355ms)
+			LoadAssemblies (178ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (1029ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (676ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.103 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2105ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1665ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (990ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (778ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (46.7 KB). Loaded Objects now: 3403.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 5.417900 ms (FindLiveObjects: 1.398100 ms CreateObjectMapping: 0.455200 ms MarkObjects: 3.466000 ms  DeleteObjects: 0.093600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 108745.217604 seconds.
+  path: Assets/Materials/Chipboard.mat
+  artifactKey: Guid(f507cb75df1a2d54fa54b32d9989ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Chipboard.mat using Guid(f507cb75df1a2d54fa54b32d9989ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cfe1c4eec7a34b1fdf086962303962') in 0.269505 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.723916 seconds.
+  path: Assets/space-kit-1.0/Models/alienBones.fbx
+  artifactKey: Guid(daf2974b55c2d2c4e903744e54ce5649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/alienBones.fbx using Guid(daf2974b55c2d2c4e903744e54ce5649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779882fc45381eee1c8b7a176067ec29') in 0.121948 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/space-kit-1.0/Models/barrelLarge.fbx
+  artifactKey: Guid(f7b9886df74b495419f27fcd20dc62bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/barrelLarge.fbx using Guid(f7b9886df74b495419f27fcd20dc62bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627a23153a3825f7e39086c282e6e139') in 0.039703 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/space-kit-1.0/Models/astronaut.fbx
+  artifactKey: Guid(1ce5b9828efe7fd43a57c97fe53d5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/astronaut.fbx using Guid(1ce5b9828efe7fd43a57c97fe53d5671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b247099a23662d965534eba0773862') in 0.076223 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/space-kit-1.0/Models/barrel.obj
+  artifactKey: Guid(1a8d3f83730f6de479bb0ff5c03027b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/barrel.obj using Guid(1a8d3f83730f6de479bb0ff5c03027b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f0fb6f1015560b10b4e7a283d84506') in 0.051899 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/space-kit-1.0/Models/astronaut.obj
+  artifactKey: Guid(1cd8fcc6ebcb120479b673d8019197d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/astronaut.obj using Guid(1cd8fcc6ebcb120479b673d8019197d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e0bf4e07337619b9447958d04bb1ec') in 0.077556 seconds 
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 6.755745 seconds.
+  path: Assets/space-kit-1.0/Models/buildingCorridorOpenEnd.obj
+  artifactKey: Guid(0ca12cc3024ce1f49bfb0cde9687c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/buildingCorridorOpenEnd.obj using Guid(0ca12cc3024ce1f49bfb0cde9687c6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4003ae48144ec90b6408b2795fc8e977') in 0.061698 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.030445 seconds.
+  path: Assets/space-kit-1.0/Models/console.fbx
+  artifactKey: Guid(dd95b61adffcd674fa2f9632f04e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/console.fbx using Guid(dd95b61adffcd674fa2f9632f04e4250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc838c7cf497e230023d5427b4118ba5') in 0.038362 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.229570 seconds.
+  path: Assets/space-kit-1.0/Models/consoleCorner.obj
+  artifactKey: Guid(de88332ce53adc74b91648f1c1ee3547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/consoleCorner.obj using Guid(de88332ce53adc74b91648f1c1ee3547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b670477edd095d3b643742615ad6a30c') in 0.045548 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.038379 seconds.
+  path: Assets/space-kit-1.0/Models/crater.obj
+  artifactKey: Guid(a09911de5f7a37446905f93c1b0d8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/crater.obj using Guid(a09911de5f7a37446905f93c1b0d8bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675bad5af205994470ecd67a1ce7f8bc') in 0.042471 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.954814 seconds.
+  path: Assets/space-kit-1.0/Models/frameHighTile.obj
+  artifactKey: Guid(d746a94cbc809ed4a8acae1538ac1144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/frameHighTile.obj using Guid(d746a94cbc809ed4a8acae1538ac1144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3c8fdb3cff73d9435a990ce4a9cd05') in 0.054114 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/space-kit-1.0/Models/frameLowTile.fbx
+  artifactKey: Guid(ad1a8b5aeaddb73408577c8ea351c2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/frameLowTile.fbx using Guid(ad1a8b5aeaddb73408577c8ea351c2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548aaaaeed49e73ad6eaa5587185425e') in 0.055577 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 95.461275 seconds.
+  path: Assets/Kenney Character Assets/Skins/astroFemaleA.png
+  artifactKey: Guid(fb91d0ffa0cf5ea4c8694813df904481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kenney Character Assets/Skins/astroFemaleA.png using Guid(fb91d0ffa0cf5ea4c8694813df904481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b90207ef7e770e93595cf59ad27e92a') in 0.096878 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.448985 seconds.
+  path: Assets/space-kit-1.0/Models/groundTile.fbx
+  artifactKey: Guid(2c43e0d15fdc2a84e848a90be0699713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/groundTile.fbx using Guid(2c43e0d15fdc2a84e848a90be0699713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb0de72855bcfd894f51c7ad90fb9db') in 0.025679 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001058 seconds.
+  path: Assets/space-kit-1.0/Models/groundTile.obj
+  artifactKey: Guid(6743a154905e0ba409dcabf66269b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/groundTile.obj using Guid(6743a154905e0ba409dcabf66269b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b7778bd0b78689b2c40b4647af2099') in 0.036347 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/space-kit-1.0/Models/groundTileRough.fbx
+  artifactKey: Guid(9a5c08f370b4bb44091696d6ddf809fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/groundTileRough.fbx using Guid(9a5c08f370b4bb44091696d6ddf809fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c9dfedb4c2b3119e03046f9c44741d') in 0.024355 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.002154 seconds.
+  path: Assets/space-kit-1.0/Models/itemWeapon.obj
+  artifactKey: Guid(171474a3f05884045a9adb2c4a963de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/itemWeapon.obj using Guid(171474a3f05884045a9adb2c4a963de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c45b05f0cfb87b469d6c166a28b20c4') in 0.067273 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/space-kit-1.0/Models/laserSabel.obj
+  artifactKey: Guid(012940dae47a76c4c91f7db2f110fa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/laserSabel.obj using Guid(012940dae47a76c4c91f7db2f110fa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e656fa3f348d61fa28d9423a10ab9b8') in 0.053734 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.102974 seconds.
+  path: Assets/space-kit-1.0/Models/metalFence.fbx
+  artifactKey: Guid(c6b0abca2072de54383fc37d8830ed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalFence.fbx using Guid(c6b0abca2072de54383fc37d8830ed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20041fbb97d73c305bf07b9d8b3f3d0') in 0.025641 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/space-kit-1.0/Models/metalFence.obj
+  artifactKey: Guid(ab331d67a2f1d1040bbdb9521cc884ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalFence.obj using Guid(ab331d67a2f1d1040bbdb9521cc884ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eaaae89671366ea24c4c2f2cb1661d1') in 0.036808 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/space-kit-1.0/Models/metalFenceCorner.obj
+  artifactKey: Guid(6fd8f17c9ef9b5f4f95598ec42a91eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalFenceCorner.obj using Guid(6fd8f17c9ef9b5f4f95598ec42a91eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45782812abce42d82c9939a927bbd58a') in 0.034060 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/space-kit-1.0/Models/metalStructureBottom.obj
+  artifactKey: Guid(cf557e4d58aec2248a3115b29eec634b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalStructureBottom.obj using Guid(cf557e4d58aec2248a3115b29eec634b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a6f43f76db31af854ca35b3a0a70c0') in 0.040227 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/space-kit-1.0/Models/metalStructureCross.obj
+  artifactKey: Guid(938e122e06f9dd64d9f160897b81d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalStructureCross.obj using Guid(938e122e06f9dd64d9f160897b81d5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c364bc5d41240bbf8b79ee6566f3811c') in 0.047525 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/space-kit-1.0/Models/metalStructureBottom.fbx
+  artifactKey: Guid(d91bc495a2c661f4ab7a5bd35fc7434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalStructureBottom.fbx using Guid(d91bc495a2c661f4ab7a5bd35fc7434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc1057047c87966efbee92e8ae23e8a') in 0.035926 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/space-kit-1.0/Models/metalStructure.fbx
+  artifactKey: Guid(45e987e489fd9f94ea771c7de7629385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalStructure.fbx using Guid(45e987e489fd9f94ea771c7de7629385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02236f875f77fc975e08bbcf46440eca') in 0.046408 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.080719 seconds.
+  path: Assets/space-kit-1.0/Models/metalTileConnectCenter.fbx
+  artifactKey: Guid(030718179b4d88d49aad80cd5add2492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalTileConnectCenter.fbx using Guid(030718179b4d88d49aad80cd5add2492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df66b79c90310c91cafe2c98152afc53') in 0.028800 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/space-kit-1.0/Models/metalTileConnectCenter.obj
+  artifactKey: Guid(3d4e64ab071979441bbb3cef3b2ff38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalTileConnectCenter.obj using Guid(3d4e64ab071979441bbb3cef3b2ff38b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0467c4d0aa494b912fff22d8b67fc9') in 0.035100 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/space-kit-1.0/Models/metalTileConnectCornerInner.obj
+  artifactKey: Guid(4f6ff12f56c00c24d81c8644ec47ec87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalTileConnectCornerInner.obj using Guid(4f6ff12f56c00c24d81c8644ec47ec87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf6aa8a7d9bd7c9f4114ceb01723c8f') in 0.063617 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/space-kit-1.0/Models/metalTileConnectCornerInner.fbx
+  artifactKey: Guid(a2feb98317b91914c872a663178542d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalTileConnectCornerInner.fbx using Guid(a2feb98317b91914c872a663178542d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48b23f68967ec8ecc1530912e36f2ae') in 0.072217 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/space-kit-1.0/Models/metalTileConnectCorner.fbx
+  artifactKey: Guid(dbc90be73db841d4493bdec31828e14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/space-kit-1.0/Models/metalTileConnectCorner.fbx using Guid(dbc90be73db841d4493bdec31828e14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5de3c96ea23a31f713c0339e28bc25') in 0.049533 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005442 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.565 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2566ms)
+		BeginReloadAssembly (365ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2001ms)
+			LoadAssemblies (270ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (1166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (909ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2932 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (21.9 KB). Loaded Objects now: 3450.
+Memory consumption went from 108.9 MB to 108.9 MB.
+Total: 8.974900 ms (FindLiveObjects: 0.502600 ms CreateObjectMapping: 0.545700 ms MarkObjects: 7.852100 ms  DeleteObjects: 0.072300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
